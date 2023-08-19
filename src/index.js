@@ -58,9 +58,15 @@ const Title = () => {
 
 const Author = () => {
 
+  const inlineHeadingStyles = {
+    color: '#617d98',
+    fontSize: '0.75rem',
+    marginTop: '1rem'
+  };
+
   return (
 
-    <h4>Robert Martin</h4>
+    <h4 style={inlineHeadingStyles}>Robert Martin</h4>
 
   );
 

@@ -3,9 +3,21 @@ import ReactDOM from 'react-dom/client';
 
 import './index.css';
 
-const img = `./images/book-1.jpg`;
-const title = `Clean Code: A Handbook of Agile Software Craftsmanship`;
-const author = `Robert Martin`;
+const firstBook = {
+
+  img: `./images/book-1.jpg`,
+  title: `Clean Code: A Handbook of Agile Software Craftsmanship`,
+  author: `Robert Martin`,
+
+};
+
+const secondBook = {
+
+  img: `./images/book-2.jpeg`,
+  title: `Domain-Driven Design: Tackling Complexity in the Heart of Software`,
+  author: `Timo Keni`,
+
+};
 
 const BookList = () => {
 
@@ -13,8 +25,8 @@ const BookList = () => {
 
     <section className='booklist'>
 
-      <Book img={img} title={title} author={author} />
-      <Book img={img} title={title} author={author} />
+      <Book img={firstBook.img} title={firstBook.title} author={firstBook.author} />
+      <Book img={secondBook.img} title={secondBook.title} author={secondBook.author} />
 
     </section>
 

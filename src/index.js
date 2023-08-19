@@ -40,7 +40,7 @@ const Image = () => {
 
   return (
 
-    <img src="https://m.media-amazon.com/images/I/61lU253WNnL._SY264_BO1,204,203,200_QL40_ML2_.jpg" alt="clean code book" />
+    <img src="../public/book-1.jpg" alt="clean code book" />
 
   );
 

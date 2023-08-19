@@ -7,7 +7,7 @@ const BookList = () => {
 
   return (
 
-    <section>
+    <section className='booklist'>
 
       <Book />
       <Book />
@@ -24,7 +24,7 @@ const Book = () => {
 
   return (
 
-    <article>
+    <article className='book'>
 
       <Image />
       <Title />

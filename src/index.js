@@ -8,6 +8,9 @@ const BookList = () => {
     <section>
 
       <Book />
+      <Book />
+      <Book />
+      <Book />
 
     </section>
 
@@ -35,7 +38,7 @@ const Image = () => {
 
   return (
 
-    <h2>image placeholer</h2>
+    <img src="https://m.media-amazon.com/images/I/61lU253WNnL._SY264_BO1,204,203,200_QL40_ML2_.jpg" alt="clean code book" />
 
   );
 
@@ -45,7 +48,7 @@ const Title = () => {
 
   return (
 
-    <h2>Book Title</h2>
+    <h2>Clean Code: A Handbook of Agile Software Craftsmanship</h2>
 
   );
 
@@ -55,7 +58,7 @@ const Author = () => {
 
   return (
 
-    <h4>Author</h4>
+    <h4>Robert Martin</h4>
 
   );
 

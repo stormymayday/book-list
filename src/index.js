@@ -20,14 +20,18 @@ const BookList = () => {
 
 };
 
+const author = `Robert Martin`;
+
 const Book = () => {
+
+  const title = `Clean Code: A Handbook of Agile Software Craftsmanship`;
 
   return (
 
     <article className='book'>
       <img src="./images/book-1.jpg" alt="clean code book" />
-      <h2>Clean Code: A Handbook of Agile Software Craftsmanship</h2>
-      <h4>Robert Martin</h4>
+      <h2>{title}</h2>
+      <h4>{author}</h4>
     </article>
 
   );

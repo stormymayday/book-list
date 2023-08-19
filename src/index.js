@@ -1,11 +1,66 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+
+const BookList = () => {
+
+  return (
+
+    <section>
+
+      <Book />
+
+    </section>
+
+  )
+
+};
+
+const Book = () => {
+
+  return (
+
+    <article>
+
+      <Image />
+      <Title />
+      <Author />
+
+    </article>
+
+  );
+
+};
+
+const Image = () => {
+
+  return (
+
+    <h2>image placeholer</h2>
+
+  );
+
+};
+
+const Title = () => {
+
+  return (
+
+    <h2>Book Title</h2>
+
+  );
+
+};
+
+const Author = () => {
+
+  return (
+
+    <h4>Author</h4>
+
+  );
+
+};
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+
+root.render(<BookList />);

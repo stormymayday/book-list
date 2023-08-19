@@ -40,7 +40,7 @@ const Image = () => {
 
   return (
 
-    <img src="../public/book-1.jpg" alt="clean code book" />
+    <img src="./images/book-1.jpg" alt="clean code book" />
 
   );
 

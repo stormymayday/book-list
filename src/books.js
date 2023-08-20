@@ -14,6 +14,13 @@ const books = [
         author: `Timo Keni`,
 
     },
+    {
+        id: 3,
+        img: `./images/book-3.jpeg`,
+        title: `How to Stop Worrying and Start Living`,
+        author: `Dale Carnegie`,
+
+    },
 
 ];
 

@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import books from './books.js';
+import Book from './Book.js';
 
 const BookList = () => {
 
@@ -22,24 +23,6 @@ const BookList = () => {
       </section>
 
     </>
-
-  );
-
-};
-
-const Book = (props) => {
-
-  // console.log(props);
-
-  const { img, title, author } = props;
-
-  return (
-
-    <article className='book'>
-      <img src={img} alt={title} />
-      <h2>{title}</h2>
-      <h4>{author}</h4>
-    </article>
 
   );
 

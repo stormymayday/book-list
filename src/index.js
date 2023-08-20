@@ -25,7 +25,9 @@ const BookList = () => {
 
     <section className='booklist'>
 
-      <Book img={firstBook.img} title={firstBook.title} author={firstBook.author} />
+      <Book img={firstBook.img} title={firstBook.title} author={firstBook.author}>
+        <button>click me</button>
+      </Book>
       <Book img={secondBook.img} title={secondBook.title} author={secondBook.author} />
 
     </section>
@@ -34,11 +36,11 @@ const BookList = () => {
 
 };
 
-const Book = ({ img, title, author }) => {
+const Book = (props) => {
 
-  // console.log(props);
+  console.log(props);
 
-  // const { img, title, author } = props;
+  const { img, title, author, children } = props;
 
   return (
 
@@ -46,6 +48,7 @@ const Book = ({ img, title, author }) => {
       <img src={img} alt={title} />
       <h2>{title}</h2>
       <h4>{author}</h4>
+      {children}
     </article>
 
   );

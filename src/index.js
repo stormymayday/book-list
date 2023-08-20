@@ -30,10 +30,8 @@ const BookList = () => {
 
       {books.map((book) => {
 
-        const { id, img, title, author } = book;
-
         return (
-          <Book key={id} img={img} title={title} author={author} />
+          <Book key={book.id} {...book} />
         );
 
       })}
